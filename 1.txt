@@ -12,3 +12,8 @@ git init
 # Then run the following command:
 git remote add origin https://github.com/liu2528/<The current repositories>.git
 git push -u origin master
+
+# Show an error:
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/liu2528/learnToUseGit.git'
+
