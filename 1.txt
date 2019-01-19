@@ -1,0 +1,14 @@
+cd <dir_name>
+
+# Then run the following command:
+git remote add origin https://github.com/liu2528/<The current repositories>.git
+
+# Show an error:
+fatal: Not a git repository (or any of the parent directories): .git
+
+# Run the following command to fix this error:
+git init
+
+# Then run the following command:
+git remote add origin https://github.com/liu2528/<The current repositories>.git
+git push -u origin master
